@@ -1,0 +1,10 @@
+version = 1
+SPDX-PackageName = "gh-org-audit"
+SPDX-PackageSupplier = "Anne Jan Brouwer"
+SPDX-PackageDownloadLocation = "https://github.com/annejan/gh-org-audit"
+
+[[annotations]]
+path = ["README.md", ".gitignore", "REUSE.toml", ".github/**", "tests/fixtures/**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Anne Jan Brouwer"
+SPDX-License-Identifier = "MIT"
